@@ -3,28 +3,23 @@
   margin:0;
   padding:0;
 }
-
 body{
   font-family: 'Verdana', sans-serif;  
   color: aliceblue;
   background-color: darksalmon;
 }
-
 .row{
   width: 100%;
 }
-
 .menu-title{
   text-align: center;
   margin-bottom: 30px;
 }
-
 .container{
  position: relative;
  top:60px;
  margin: 15px; 
 }
-
 .maint{
   position: relative;
   top: 0;
@@ -33,13 +28,11 @@ body{
   padding: 25px;
   border: 3px solid #000;
 }
-
 .maint p{
   margin-top: 18px;
   text-align: justify;
   font-size:100%;
 }
-
 .maintitle{
   position: absolute;
   top:0;
@@ -49,24 +42,18 @@ body{
   border-left: 2px solid #000;
   border-bottom: 2px solid #000;
 }
-
 #title1 {
   background-color: #D59898;
   color: black;
 } 
-
 #title2{
   background-color: #D59898;
   color:black;
 }
-
 #title3{
   background-color: #D59898;
   color: black;
 }
-
-/* Simple Responsive Framework. */
-/*------ Desktop ------*/
 @media (min-width: 992px){
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;  
@@ -107,11 +94,7 @@ body{
   .col-lg-12 {
     width: 100%;
   }
-
 }
-
-
-/*------ Tablet ------*/
 @media (min-width: 768px) and (max-width: 991px){
   .col-lg-4 {
     width: 50%;
@@ -122,9 +105,6 @@ body{
    float: left;
  }
 }
-
-
-/*------ Mobile ------*/
 @media (max-width: 767px){
   .col-lg-4{
     width: 100%;
